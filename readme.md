@@ -1,11 +1,11 @@
-# LoRa-Based IoT Smart Fertigation System with ESP8266 & Blynk 2.0
+# LoRa-Based IoT Smart Fertigation System with Arduino Nano, LoRa WAN, ESP8266 & Blynk 2.0
 
 ## Overview
 In areas lacking Wi-Fi coverage, traditional IoT solutions face limitations. This project addresses such challenges by employing LoRa technology for long-range communication between field sensors and a central hub. It demonstrates the development of a LoRa-based IoT Smart Agriculture Monitoring and Automatic Fertigation System using JXCT Soil NPK Sensor with Modbus RS485, Arduino Nano, LoRa SX1278 Tranmitter and Receiver and the Blynk IoT 2.0 platform. The system monitors soil nutrients, and automates fertigation based on real-time data.
 
 ## Components Required
 
-The system consists of:\
+The system consists of:
 
 ### Sensor Node (Transmitter): 
 Utilizes Arduino Nano, Modbus RS485 and SX1278 LoRa module to collect data from soil NPK sensor. It also controls a nutrient rich-water pump via a relay for automated irrigation.
@@ -22,9 +22,9 @@ Breadboard, jumper wires, power supply\
 
 ## Circuit Diagrams
 ### Transmitter Circuit
-![Tranmiiter Circuit](https://github.com/[sid-code14]/[Iot_Smart_Agriculture]/blob/[main]/arduino-lora-npk-connection.jpg?raw=true)
+![](arduino-lora-npk-connection.jpg)
 ### Receiver Circuit
-![Receiver Circuit](https://github.com/[sid-code14]/[Iot_Smart_Agriculture]/blob/[main]/Circuit-Diagram-of-LoRa-based-IoT-Smart-Agriculture-with-ESP8266.webp?raw=true)
+![](Circuit-Diagram-of-LoRa-based-IoT-Smart-Agriculture-with-ESP8266.webp)
 ## Blynk 2.0 IoT Cloud Setup
 Blynk 2.0 IoT Cloud Setup
 Create a New Template:
